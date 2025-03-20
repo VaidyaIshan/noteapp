@@ -18,6 +18,8 @@ body{
     background-color: black;
     color:white;
     font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
 }
 .main-title{
     font-size: 90px;
@@ -32,3 +34,38 @@ a{
     text-decoration: none;
     color: white;
 }
+.links {
+    margin: 10px; 
+    padding: 10px 20px; 
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+ 
+}
+
+
+.links button {
+    background: none;
+    border: none; 
+   color:white;
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; 
+}
+.delete{
+  
+    padding: 10px 5px; 
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+ 
+
+}
+.delete button {
+    background: none;
+    border: none; 
+   color:white;
+}
+

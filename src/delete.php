@@ -1,6 +1,7 @@
 <?php
 include("dbconfig.php");
 
+
 if (isset($_GET['id'])) {
     $note_id = $_GET['id'];
     $sql = "DELETE FROM note_info WHERE note_id = $note_id";
