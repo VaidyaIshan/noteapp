@@ -11,7 +11,7 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     $row = $result->fetch_assoc();
     if($password==$row['password']){
-        header('Location: home.php');
+        header('Location: home.html');
         exit();
     } else {
         echo "Incorrect password <a href='index.html'><br>Try again</a>";
