@@ -1,60 +1,80 @@
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
-    color:white;
-}
-.main-title{
-    font-size: 90px;
-    margin-left: 37%;
-}
-.main-box{
-    width:40%;
+    background-color: #121212;
+    color: white;
     display: flex;
     flex-direction: column;
-    margin-left:30%;
     align-items: center;
-    background-color: #2c2c2c; 
-    padding: 20px;
-    border-radius: 8px;
-   
-    
+    justify-content: center;
+    margin: 0;
+    text-align: center;
 }
+
+.main-title {
+    font-size: 64px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.main-box {
+    width: 50%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1e1e1e;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.input-box {
+    border-radius: 8px;
+    width: 100%;
+    height: 40px;
+    color: black;
+    
+    border: 2px solid white;
+    font-size: 18px;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+.btn {
+    width: 220px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-top: 15px;
+    cursor: pointer;
    
-    .input-box{
-        border-radius: 8px;
-        width:400px;
-        height:35px;
-        color:black;
-        border-color: white;
-        font-size: 20px;
-      
-    }
-    .btn{
-        width:200px;
-        height:35px;
-        font-size:20px;
-        background-color: yellowgreen;
-        
-        border-radius: 8px;
-        margin-left: 25%;
-    }
-    .btnn:hover{
-        background-color: green;
-        color:white;
-    }
-    .btnn{
-        width:300px;
-        height:35px;
-        font-size:20px;
-        background-color: white;
-        
-        border-radius: 8px;
-        margin-left:0px;
-    }
-    .btn:hover{
-        background-color: green;
-        color:white;
-    }
-    .second-title{
-        font-size: 40px;
-    }
+}
+
+.btn:hover {
+    background-color: darkgreen;
+}
+
+.btnn {
+    width: 250px;
+    height: 40px;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 8px;
+}
+
+.btnn:hover {
+    background-color: #008877;
+    color: white;
+}
+
+.second-title {
+    font-size: 32px;
+    margin-top: 20px;
+    color: white;
+}
