@@ -1,7 +1,5 @@
 <?php
 include ("dbconfig.php");
-
-
 if (isset($_GET['id'])) {
     $note_id = $_GET['id'];
 }
